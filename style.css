@@ -10,7 +10,7 @@ body {
   align-items: center;
   width: 50vw;
   height: 50vh;
-  background-color:#392759;
+  background-color: #392759;
   margin: 25vh auto;
   border-radius: 1rem;
 }
@@ -27,7 +27,7 @@ body {
   width: 50px;
 }
 
-.add-points-btns{
+.add-points-btns {
   background-color: red;
   padding: .5rem;
 }
@@ -35,4 +35,9 @@ body {
 .btn {
   padding: 1rem;
   border-radius: .3rem;
+}
+
+
+.leader {
+  border: 2rem solid tomato;
 }
