@@ -10,28 +10,33 @@
 </head>
 
 <body>
-  <div id="container">
-    <section id="left">
-      <h2>HOME</h2>
-      <div id="home-score">
-        <p id="home-point-text">0</p>
-      </div>
-      <div id="add-points-btns-home" class="add-points-btns">
-        <button id="home-add-one" class="btn" onclick="addOne()">+1</button>
-        <button id="home-add-two" class="btn" onclick="addTwo()">+2</button>
-        <button id="home-add-three" class="btn" onclick="addThree()">+3</button>
-      </div>
-    </section>
-    <section id="right">
-      <h2>GUEST</h2>
-      <div id="guest-score">
-        <p id="guest-point-text">0</p>
-      </div>
-      <div id="add-points-btns-guest" class="add-points-btns">
-        <button id="guest-add-one" class="btn">+1</button>
-        <button id="guest-add-two" class="btn">+2</button>
-        <button id="guest-add-three" class="btn">+3</button>
-      </div>
+  <div id="container-main">
+    <main id="container">
+      <section id="left">
+        <h2>HOME</h2>
+        <div id="home-score">
+          <p id="home-point-text">0</p>
+        </div>
+        <div id="add-points-btns-home" class="add-points-btns">
+          <button id="home-add-one" class="btn" onclick="addOneH()">+1</button>
+          <button id="home-add-two" class="btn" onclick="addTwoH()">+2</button>
+          <button id="home-add-three" class="btn" onclick="addThreeH()">+3</button>
+        </div>
+      </section>
+      <section id="right">
+        <h2>GUEST</h2>
+        <div id="guest-score">
+          <p id="guest-point-text">0</p>
+        </div>
+        <div id="add-points-btns-guest" class="add-points-btns">
+          <button id="guest-add-one" class="btn" onclick="addOneG()">+1</button>
+          <button id="guest-add-two" class="btn" onclick="addTwoG()">+2</button>
+          <button id="guest-add-three" class="btn" onclick="addThreeG()">+3</button>
+        </div>
+      </section>
+    </main>
+    <section class="btns">
+      <button id="reset-btn" class="btn" onclick="reset()">RESET</button>
     </section>
   </div>
   <script src="index.js"></script>
